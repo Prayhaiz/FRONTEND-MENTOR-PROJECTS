@@ -1,0 +1,10 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "html.autoClosingTags": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+    "html.format.templating": true,
+    "editor.linkedEditing": true
+}

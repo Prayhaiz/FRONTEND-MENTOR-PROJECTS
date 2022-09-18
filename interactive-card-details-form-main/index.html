@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive card details form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: hsl(270, 3%, 87%);
+            font-family: monospace;
+            max-width: 1440px;
+        }
+        
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        .row ::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        .row>div {
+            float: left;
+            height: 500px;
+        }
+        
+        .form-con {
+            width: 20%;
+            background-image: url(images/bg-main-desktop.png);
+            background-repeat: no-repeat;
+        }
+        
+        .content {
+            width: 60%;
+            background-color: hsl(0, 0%, 100%);
+        }
+        
+        .form {
+            float: right;
+            margin: 100px 250px;
+        }
+        
+        .Name {
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+        
+        .input-text {
+            width: 280px;
+            height: 32px;
+            border-radius: 5px;
+        }
+        
+        .input {
+            width: 60px;
+            height: 32px;
+            padding: 10px 0;
+            border-radius: 5px;
+        }
+        
+        input [placeholder] {
+            padding: 0 10px;
+            opacity: 0.5;
+        }
+        
+        .btn {
+            width: 280px;
+            height: 36px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background-color: hsl(278, 68%, 11%);
+        }
+        
+        button {
+            color: #fff;
+            margin: 10px auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="form-con">
+        </div>
+        <div class="content">
+            <form class="form">
+                <label for="name" class="Name">CARDHOLDER NAME</label>
+                <input class="input-text" type="text" placeholder="e.g. Jane Appleseed">
+                </br>
+                <label for="number" class="Name"> CARD NUMBER</label>
+                <input class="input-text" type=" number " placeholder="e.g. 1234 5678 9123 0000 ">
+                </br>
+                <label for="date " class="Name"> EXP. DATE (MM/YY)</label>
+                <input class="input" type="number " placeholder="MM ">
+                <input class="input" type="number " placeholder="YY ">
+                <label class="Name"> CVC </label>
+                <input class="input" type="number " placeholder="e.g. 123 ">
+                </br>
+                </br>
+                <button type="submit" class="btn"> Confirm </button>
+            </form>
+        </div>
+
+    </div>
+    0000 0000 0000 0000 Jane Appleseed 00/00 000
+    <!-- Completed state start -->
+
+    Thank you! We've added your card details Continue
+
+    <div class=" attribution ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="# ">Your Name Here</a>.
+    </div>
+</body>
+
+</html>
